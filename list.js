@@ -180,5 +180,5 @@ function startMenuExistenceChecker() {
             clearInterval(checkInterval);
             startMenuObserver();
         }
-    }, 100); // 每秒检查一次
+    }, 100); //  每100毫秒检查一次
 }
