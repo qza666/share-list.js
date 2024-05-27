@@ -1,6 +1,6 @@
 // 无限循环检查条件
 const checkConditionInterval = setInterval(() => {
-    if (/升级套餐|Upgrade plan|续订 Plus|Renew Plus|邀请成员|Invite members/.test(document.body.innerText)) {
+    if (/升级套餐|Upgrade plan|续订 Plus|Renew Plus|邀请成员|Invite members|添加 Team 工作空间/.test(document.body.innerText)) {
         clearInterval(checkConditionInterval);
 
         // 移除左下角无用的调试按钮
