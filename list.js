@@ -58,7 +58,7 @@ function createButton(text, url) {
 setInterval(() => {
     document.querySelector("div.flex.gap-2.pr-1 span")?.remove();
 
-    const groupFixedElement = document.querySelector("div.group.fixed");
+    const groupFixedElement = document.querySelector("div.group.absolute");
     if (groupFixedElement) {
         groupFixedElement.style.display = groupFixedElement.querySelectorAll("button").length > 0 ? "none" : "";
     }
