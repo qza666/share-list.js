@@ -118,7 +118,9 @@ function initCustomFetch() {
    - **Chinese**: 你今天看起来真好看！  
    - **Japanese**: 今日、とってもかわいいね💖✨  
 
-#### 8. **Please translate the following text into Japanese (only the translation will be output, no explanation will be output)**  
+   Please pay attention to the quality of the translation and add appropriate emoticons to the text
+
+#### 9. **Please translate the following text into Japanese (only the translation will be output, no explanation will be output)**  
 
 `
     };
